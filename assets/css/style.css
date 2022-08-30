@@ -1,0 +1,152 @@
+body{
+    background-image: url(../images/1000_Post_Informativo_-_Como_os_gerentes_e_gestores_escolhem_os_funcionários_que_vão_ganhar_uma_promoção.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+#header{
+    background-color:rgb(15, 40, 73);
+    height:6rem;
+    font-size:20px;
+}
+
+.nav-link , h1{
+    color:rgb(255, 255, 255);
+}
+
+.fs-4{
+    margin-left: 10em;
+}
+
+#tutor{
+    margin-right: 10em;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-horizontal {
+    display: inline-block;
+    background: #f3f5f5b5;
+    max-width: 500px;
+    margin:  50px 50px 50px   150px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  form h1{
+    color:rgb(15, 40, 73);
+  }
+
+  form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  #img-input{
+    background-color: #cce3e4;
+  }
+
+  form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(27, 114, 226);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  form button:hover,.form button:active,.form button:focus {
+    background: rgb(15, 40, 73);
+  }
+  
+button:disabled{
+    opacity: 0.4;
+    cursor: default;
+    background-color: aqua;
+}
+
+.cardFuncionario{
+  display: inline-block;
+  background: #ffffffb5;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  padding: 45px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.cardFile{
+  display: inline-block;
+  max-width: 900px;
+  margin: 0 auto;
+  
+  padding: 45px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+
+
+footer{
+  
+  height: 12rem;
+  background-color: rgb(15, 40, 73);
+  display: flex;
+  flex-direction: column;   
+  justify-content: space-around;
+ 
+}
+.footer_devs{
+  display: flex;
+  justify-content: space-around;
+  
+  color: #9d9595;
+}
+.footer__cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.footer_info p{
+  color: #9d9595;
+  text-align: center; 
+
+}
+
+footer #icon-git{
+  width: 42px;
+}
+
+footer #icon-linkedin{
+  width: 38px;
+}
