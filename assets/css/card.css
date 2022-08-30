@@ -1,0 +1,56 @@
+.cardFuncionario{
+    display: inline-block;
+    background: #ffffffb5;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.cardFile{
+    display: inline-block;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(27, 114, 226);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
+button:hover{
+    background: rgb(15, 40, 73);
+}
+
+.btnCancelar:hover {
+    background: rgb(235, 11, 15);
+}
+  
+button:disabled{
+    opacity: 0.4;
+    cursor: default;
+    background-color: aqua;
+}
+
+#carouselPc2{
+   max-height:100px;
+}
