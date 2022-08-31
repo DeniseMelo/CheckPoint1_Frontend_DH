@@ -26,11 +26,8 @@ function readImage() {
 
 
  
-function clique(){
-    criarCard()
-} 
-
-function criarCard(e){
+function clique(e){
+    
     let nome = document.createElement("h4")
     nome.innerHTML = `${inputNome.value}`
     divFile.appendChild(nome)
@@ -69,7 +66,7 @@ function criarCard(e){
     divFile.classList.toggle('cardFuncionario')
   
 
-   if (typeof e !== 'undefined') {
+   
         e.preventDefault()
-    }
+
 }
