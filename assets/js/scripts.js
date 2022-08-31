@@ -26,8 +26,11 @@ function readImage() {
 
 
  
-function clique(e){
-    
+function clique(){
+    criarCard()
+} 
+
+function criarCard(e){
     let nome = document.createElement("h4")
     nome.innerHTML = `${inputNome.value}`
     divFile.appendChild(nome)
@@ -52,20 +55,21 @@ function clique(e){
     let btn1 = document.createElement("button")
     divFile.appendChild(btn1)
     btn1.classList.add('btnCadastrar')
+    btn1.setAttribute("type", "submit")
     btn1.innerHTML= 'Cadastrar'
+    console.log(btn1)
 
     let btn2 = document.createElement("button")
-    btn2.innerHTML= 'Cancelar'
-    btn2.classList.add('btnCancelar')
     divFile.appendChild(btn2)
+    btn2.classList.add('btnCancelar')
+    btn1.setAttribute("type", "reset")
+    btn2.innerHTML= 'Cancelar'
+    console.log(btn2)
 
     divFile.classList.toggle('cardFuncionario')
+  
 
    if (typeof e !== 'undefined') {
         e.preventDefault()
     }
-    
-} 
-
-
-
+}
